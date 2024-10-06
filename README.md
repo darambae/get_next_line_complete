@@ -12,12 +12,13 @@
   - [Bonus](#bonus)
     
 ## Introduction
+Here’s a more natural-sounding introduction for the **get_next_line** project in English, French, and Korean:
 
-get_next_line is a project that aims to create a function capable of reading a line ending with a newline character ('\n') from a file descriptor. This function is essential for handling input in a controlled and efficient manner, and is a common requirement in many real-world applications. This project is part of the 42 school curriculum, designed to enhance understanding of file I/O operations and dynamic memory management in C.
+**get_next_line** is a C project that aims to provide a function for reading a line from a file descriptor, including standard input. This implementation allows for efficient line-by-line reading from files, handling multiple file descriptors simultaneously. The project focuses on memory management and dynamic allocation, ensuring that resources are properly managed while reading input. By working on **get_next_line**, you'll gain a deeper understanding of file handling in C and improve your skills in working with buffers and strings.
 
-get_next_line est un projet visant à créer une fonction capable de lire une ligne se terminant par un caractère de nouvelle ligne ('\n') à partir d'un descripteur de fichier. Cette fonction est essentielle pour gérer les entrées de manière contrôlée et efficace, et est une exigence courante dans de nombreuses applications réelles. Ce projet fait partie du programme de l'école 42, conçu pour améliorer la compréhension des opérations d'E/S de fichiers et de la gestion dynamique de la mémoire en C.
+**get_next_line** est un projet en C qui vise à fournir une fonction permettant de lire une ligne à partir d'un descripteur de fichier, y compris l'entrée standard. Cette implémentation permet de lire efficacement ligne par ligne à partir de fichiers, tout en gérant simultanément plusieurs descripteurs de fichier. Le projet met l'accent sur la gestion de la mémoire et l'allocation dynamique, garantissant que les ressources sont correctement gérées lors de la lecture de l'entrée. En travaillant sur **get_next_line**, vous approfondirez votre compréhension de la gestion des fichiers en C et améliorerez vos compétences dans la manipulation des tampons et des chaînes.
 
-get_next_line는 파일 디스크립터에서 줄 바꿈 문자 ('\n')로 끝나는 줄을 읽을 수 있는 함수를 만드는 것을 목표로 하는 프로젝트입니다. 이 함수는 입력을 제어되고 효율적으로 처리하는 데 필수적이며, 많은 실제 응용 프로그램에서 일반적으로 요구됩니다. 이 프로젝트는 파일 I/O 작업 및 C에서의 동적 메모리 관리에 대한 이해를 높이기 위해 설계된 42 학교 커리큘럼의 일부입니다.
+**get_next_line**는 C 프로젝트로, 파일 디스크립터(표준 입력 포함)에서 한 줄을 읽기 위한 함수를 제공하는 것을 목표로 합니다. 이 구현은 파일에서 효율적으로 한 줄씩 읽을 수 있으며, 여러 파일 디스크립터를 동시에 처리할 수 있습니다. 이 프로젝트는 메모리 관리와 동적 할당에 중점을 두어 입력을 읽는 동안 자원이 적절하게 관리되도록 합니다. **get_next_line** 작업을 통해 C에서 파일 처리에 대한 깊은 이해를 얻고 버퍼와 문자열을 다루는 기술을 향상시킬 수 있습니다.
 
 ---
 
@@ -31,7 +32,7 @@ get_next_line는 파일 디스크립터에서 줄 바꿈 문자 ('\n')로 끝나
 - Gère plusieurs descripteurs de fichiers simultanément.
 - Utilisation efficace de la mémoire avec allocation dynamique de tampon.
 <br><br>
-- 파일 디스크립터에서 줄 바꿈 문자를 포함한 줄을 읽음.
+- 파일 디스크립터에서 줄 바꿈 문자('\n')를 포함한 줄을 읽음.
 - 여러 파일 디스크립터를 동시에 처리.
 - 동적 버퍼 할당을 통한 효율적인 메모리 사용.
 
